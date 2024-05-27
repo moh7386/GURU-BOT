@@ -23,7 +23,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 }
 handler.help = ['gemini <text>']
 handler.tags = ['tools']
-handler.command = /^(gpt4)$/i
+handler.command = /^(ذكاء)$/i
 
 export default handler
 
